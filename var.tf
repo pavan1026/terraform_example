@@ -22,5 +22,5 @@ default = "c:/users/rajeevpavan/.aws/credentials"
 
   output "public_ip"{
   description = "public ip"
-  default = module.ec2_instance.public_ip
+  value = module.ec2_instance.public_ip
   }

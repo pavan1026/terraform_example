@@ -16,5 +16,5 @@ default = "us-east-1"
 varaible "credentials" {
 name = "credentials for aws"
 type = string
-default = "C:\Users\rajeevpavan\.aws\credentials"
+default = "c:\users\rajeevpavan\.aws\credentials"
 }

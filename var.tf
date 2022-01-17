@@ -18,3 +18,9 @@ description = "credentials for aws"
 type = string
 default = "c:/users/rajeevpavan/.aws/credentials"
 }
+
+
+  output "public_ip"{
+  description = "public ip"
+  default = module.ec2_instance.public_ip
+  }

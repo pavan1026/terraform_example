@@ -14,7 +14,7 @@ default = "us-east-1"
 #}
 
 variable "credentials" {
-name = "credentials for aws"
+description = "credentials for aws"
 type = string
 default = "c:/users/rajeevpavan/.aws/credentials"
 }

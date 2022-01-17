@@ -13,7 +13,7 @@ default = "us-east-1"
 #  token = var.provider_token
 #}
 
-varaible "credentials" {
+variable "credentials" {
 name = "credentials for aws"
 type = string
 default = "c:/users/rajeevpavan/.aws/credentials"
